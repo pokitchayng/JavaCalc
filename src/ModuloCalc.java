@@ -2,7 +2,7 @@
  * Defines Modulo division object.
  * 
  * @author Chris Gray
- *
+ * Last modified 08/28/2017
  */
 public class ModuloCalc implements Calculation {
 	// declares variables unique to this object.
@@ -13,9 +13,12 @@ public class ModuloCalc implements Calculation {
 		first = firstNum;
 		second = secondNum;
 	}
+	/**
+	 * Gets only the result of the computation for this object. Validates that the divisor is not zero.
+	 */
 	@Override
 	public double getResult() {
-		if(this.second != 0.0) { // Makes absolutely sure there is no division by 0.
+		if(this.second != 0.0) {
 			double total = this.first % this.second;
 			return total;	
 		} else {

@@ -2,7 +2,7 @@
  * Defines Multiplication object.
  * 
  * @author Chris Gray
- *
+ * Last modified 08/28/2017
  */
 public class MultiplicationCalc implements Calculation {
 	// declares variables unique to this object.

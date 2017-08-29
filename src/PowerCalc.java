@@ -2,7 +2,7 @@
  * Defines object for raised to a Power.
  *
  * @author Chris Gray
- *
+ * Last modified 08/28/2017
  */
 public class PowerCalc implements Calculation {
 	// declares variables unique to this object.

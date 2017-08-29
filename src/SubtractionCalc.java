@@ -1,8 +1,9 @@
+
 /**
  * Defines Subtraction object.
  * 
  * @author Chris Gray
- *
+ * Last modified 08/28/2017
  */
 public class SubtractionCalc implements Calculation {
 	protected double first = 0.0;

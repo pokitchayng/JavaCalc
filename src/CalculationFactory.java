@@ -1,7 +1,18 @@
-
+/**
+ * Factory class calls for object creation based on type requested.
+ * 
+ * @author Chris Gray
+ * Last modified 08/28/2017
+ */
 public class CalculationFactory {
 
-	//use getShape method to get object of type shape
+	/**
+	 * Uses passed in operator type to select the correct object type, calls the constructor
+	 * method for that object.
+	 * 
+	 * @param operator specifies what type of object to create.
+	 * @return the object of the appropriate type.
+	 */
 	public Calculation getCalculation(String operator){
 		if(operator.equals(null)){
 			return null;

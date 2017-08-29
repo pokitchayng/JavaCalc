@@ -1,8 +1,9 @@
+
 /**
  * Defines Square Root object.
  * 
  * @author Chris Gray
- *
+ * Last modified 08/28/2017
  */
 public class SQRTCalc implements Calculation {
 	// declares variables unique to this object.
@@ -17,8 +18,11 @@ public class SQRTCalc implements Calculation {
 	public void setVars(double firstNum) {
 		first = firstNum;
 	}
+	/**
+	 * Gets only the result of the computation for this object. Ignores second number for unary operation.
+	 */
 	@Override
-	public double getResult() { // Ignores second number so as to be able to do a unitary operation.
+	public double getResult() {
 		double total = Math.sqrt(this.first);
 		return total;
 	}

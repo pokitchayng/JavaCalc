@@ -2,12 +2,13 @@
  * Defines Addition object.
  * 
  * @author Chris Gray
- *
+ * Last modified 08/28/2017
  */
 public class AdditionCalc implements Calculation {
 	// declares variables unique to this object.
 	protected double first = 0.0;
 	protected double second = 0.0;
+
 	@Override
 	public void setVars(double firstNum, double secondNum) {
 		first = firstNum;
