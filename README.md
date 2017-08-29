@@ -4,8 +4,8 @@ A lightweight calculator to use from the command line for basic math. Offers his
 ### Getting Started
 Run Javacalc with java from the command line.
 
-### Prerequisits
-Java refferable through the classpath.
+### Prerequisites
+Java referable through the classpath.
 
 ### Author
 Chris Gray
